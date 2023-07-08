@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@font-face {
+  font-family: Digital;
+  src: url(DigitalNumbers-Regular.woff);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: beige;
+  text-align: center;
+}
+body {
+  background-color: beige;
+  user-select: none;
+}
+h1 {
+  margin-top: 55px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
+  width: 50rem;
+  height: 20rem;
+  background-color: rgba(0, 0, 0, 0.888);
+  border-radius: 30px;
+  outline: 5px solid rgba(0, 0, 0, 0.888);
+  outline-offset: 10px;
+  margin: 50px auto 130px;
+  padding: 4rem;
+  font-family: Digital;
+}
+.inner {
+  font-size: 6rem;
+}
+p {
+  margin-bottom: 0;
+}
+#am-pm {
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
